@@ -145,7 +145,6 @@ Mạch MakerEdu Creator sử dụng nguồn chính từ cổng USB-C để cấp
 [Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
 
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
-- Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MAKERLABVN" by MakerLab.vn**
 
 ### Hướng dẫn kết nối và nạp chương trình mẫu cho Mạch MakerEdu Creator trên phần mềm Arduino
 
@@ -195,9 +194,7 @@ void loop() {
 
 1) Kết nối máy tính: Kết nối Mạch MakerEdu Creator với máy tính bằng cáp USB-C sẽ thấy Led nguồn PWR trên mạch phát sáng như ở phần hướng dẫn Arduino.
 
-2) Cài đặt Driver và Cấu hình Device: Cài đặt Driver và cấu hình Mạch MakerEdu Creator trên phần mềm Mblock theo hướng dẫn tại đây.
-
-3) Nạp chương trình mẫu: Nạp chương trình chớp tắt đèn Led L13 trên mạch MakerEdu Creator với phần mềm Mblock để kiểm tra hoạt động:
+2) Nạp chương trình mẫu: Nạp chương trình chớp tắt đèn Led L13 trên mạch MakerEdu Creator với phần mềm Mblock để kiểm tra hoạt động:
 
 ![](/image/creator9.png)
 
