@@ -140,7 +140,7 @@ Mạch MakerEdu Creator sử dụng nguồn chính từ cổng USB-C để cấp
 - [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
 - [Động cơ RC Servo MG90S](https://hshop.vn/dong-co-rc-servo-mg90s)
 
-### Hướng dẫn sử dụng với Arduino (Code C)
+## Hướng dẫn sử dụng với Arduino (Code C)
   
 [Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
 
