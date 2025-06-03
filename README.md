@@ -140,21 +140,12 @@ Mạch MakerEdu Creator sử dụng nguồn chính từ cổng USB-C để cấp
 - [Động cơ RC Servo 9G](https://hshop.vn/dong-co-rc-servo-9g)
 - [Động cơ RC Servo MG90S](https://hshop.vn/dong-co-rc-servo-mg90s)
 
-## Hướng dẫn sử dụng với phần mềm Arduino
+### Hướng dẫn sử dụng với Arduino (Code C)
+  
+[Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
 
-### Hướng dẫn sử dụng phần mềm Arduino cơ bản
-
-1) Giới thiệu về Arduino
-
-2) Ngôn ngữ lập trình Arduino
-
-3) Cách cài đặt phần mềm Arduino IDE
-
-4) Cách cài đặt Driver và nạp chương trình cho mạch Arduino / Arduino Compatible
-
-5) Cách cài đặt các thư viện phần cứng Arduino Library
-
-6) Cách sử dụng Serial Monitor & Serial Plotter trên phần mềm Arduino
+- Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
+- Trong **Tools / Library Manager**, tìm và cài đặt bộ thư viện tổng hợp **"MAKERLABVN" by MakerLab.vn**
 
 ### Hướng dẫn kết nối và nạp chương trình mẫu cho Mạch MakerEdu Creator trên phần mềm Arduino
 
@@ -162,14 +153,12 @@ Mạch MakerEdu Creator sử dụng nguồn chính từ cổng USB-C để cấp
 
 ![](/image/creator6.jpg)
 
-2) Cài đặt Driver: Mạch MakerEdu Creator là một mạch Arduino Uno Compatible (tương thích Arduino Uno) sử dụng IC nạp chương trình và giao tiếp máy tính CH340, các bạn có thể tham khảo Hướng dẫn cài đặt Driver cho các mạch sử dụng IC giao tiếp USB-UART CH34x - MakerLab Wiki.
-
-3) Cấu hình mạch trên phần mềm Arduino: Để cấu hình mạch trên phần mềm Arduino chúng ta cần làm các bước sau:
-    - Thiết lập Board tại Tools > Board > Arduino AVR Boards > Arduino Uno và Port (cổng kết nối) cho mạch, nếu không xác định được cổng kết nối có thể ngắt kết nối mạch và kết nối lại đồng thời kiểm tra phần Port để thấy cổng kết nối mới của mạch xuất hiện:
+2) Cấu hình mạch trên phần mềm Arduino: Để cấu hình mạch trên phần mềm Arduino chúng ta cần làm các bước sau:
+    - Thiết lập Board tại **Tools** > **Board** > **Arduino AVR Boards** > **Arduino Uno** và chọn **Port** (cổng kết nối) cho mạch, nếu không xác định được cổng kết nối có thể ngắt kết nối mạch và kết nối lại đồng thời kiểm tra phần **Port** để thấy cổng kết nối mới của mạch xuất hiện:
 
 ![](/image/creator7.jpg)
 
-- Sau khi đã hoàn thành các thiết lập cơ bản bạn có thể nạp chương trình Blink sau vào mạch MakerEdu Creator trên phần mềm Arduino bằng cách nhấn vào nút Upload hoặc chọn Sketch > Upload sẽ thấy đèn Led L13 trên mạch chớp tắt 1 giây 1 lần:
+- Sau khi đã hoàn thành thiết lập bạn có thể nạp chương trình Blink sau vào mạch MakerEdu Creator trên phần mềm Arduino bằng cách nhấn vào nút **Upload** hoặc chọn **Sketch** > **Upload** sẽ thấy đèn Led L13 trên mạch chớp tắt 1 giây 1 lần:
 
 ```ino
 /*
@@ -193,22 +182,15 @@ void loop() {
 
 ![](/image/creator8.jpg)
 
-## Hướng dẫn sử dụng với phần mềm mBlock
+## Hướng dẫn lập trình với mBlock (kéo thả khối)
 
-### Hướng dẫn sử dụng phần mềm mBlock với mạch MakerEdu Creator
+[Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt Extension mBlock cơ bản.](https://github.com/makerlabvn/mBlock-MakerEdu-Creator)
 
-1) Giới thiệu và hướng dẫn cài đặt phần mềm mBlock
-
-2) Giới thiệu mạch MakerEdu Creator
-
-3) Cách cài đặt Driver và Device cho mạch MakerEdu Creator trên phần mềm mBlock
-
-4) Các khối lệnh cơ bản của mạch MakerEdu Creator trên phần mềm mBlock
-
-5) Cách cài đặt Extension và giới thiệu các khối lệnh cho phần cứng MakerEdu trên phần mềm mBlock
-
-6) Cách sử dụng Extension Upload Mode Broadcast trên phần mềm mBlock
-
+- Tải và cài đặt phần mềm mBlock 5 ([Windows](https://www.mediafire.com/file/ma55iajd7glwmbo/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Windows.zip/file) / [Mac Intel](https://www.mediafire.com/file/pjfngy6d7ktb55f/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_Intel.zip/file) / [Mac M1M2](https://www.mediafire.com/file/mfdkgpgnpa7uv2s/%255BMakerLab.vn%255D_mBlock_V5.4.3_for_Mac_M1M2.zip/file))
+- Thêm Device **"MakerEdu Creator"** by MakerEduVN
+- Thêm Extension **"Upload Mode Broadcast"** by mBlock Official
+- Thêm Extension **"MakerEdu Hardware"** by MakerEduVN
+  
 ### Hướng dẫn kết nối và nạp chương trình cho Mạch MakerEdu Creator trên phần mềm Mblock
 
 1) Kết nối máy tính: Kết nối Mạch MakerEdu Creator với máy tính bằng cáp USB-C sẽ thấy Led nguồn PWR trên mạch phát sáng như ở phần hướng dẫn Arduino.
